@@ -43,8 +43,6 @@ class MovieDetailsFragment : Fragment() {
         fun newInstance(bundle: Bundle) = MovieDetailsFragment().apply {
             arguments = bundle
         }
-
-
     }
 
     override fun onDestroyView() {

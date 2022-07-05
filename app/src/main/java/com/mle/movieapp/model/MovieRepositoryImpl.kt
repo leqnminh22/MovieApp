@@ -8,5 +8,4 @@ class MovieRepositoryImpl: MovieRepository {
     override fun getUpcomingMoviesList(): List<Movie> {
         return getUpcomingMovies()
     }
-
 }
